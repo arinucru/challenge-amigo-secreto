@@ -4,7 +4,7 @@ let amigos = [ ]
 //Función para agregar un amigo a la lista
 function agregarAmigo(){
     let inputAmigo = document.getElementById("amigo");
-    let nombreAmigo = inputAmigo.ariaValueMax.trim();
+    let nombreAmigo = inputAmigo.value; 
 
     //Validar que el campo no esté vacío
     if(nombreAmigo === ""){
@@ -26,13 +26,12 @@ function agregarAmigo(){
 
     //Actualizar la lista en la interfaz
     actualizarLista();
-
 }
 
 //Función para actualizar la lista de amigos en la interfaz
 function actualizarLista(){
     let listaAmigos = document.getElementById("listaAmigos");
-
+    
     //Limpiar la lista actual
     listaAmigos.innerHTML = ""; //Borra cualquier contenido previo de la lista
 
@@ -42,7 +41,6 @@ function actualizarLista(){
         li.textContent = amigos[i];
         listaAmigos.appendChild(li);
     }
-
 }
 
 //Función para seleccionar un amigo al azar
