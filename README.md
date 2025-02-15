@@ -21,6 +21,12 @@ Este proyecto es una aplicación web para gestionar un sorteo de amigo secreto. 
 - `app.js`: Contiene la lógica JavaScript para gestionar la lista de amigos y el sorteo.
 - `styles.css`: Contiene los estilos CSS para la aplicación.
 
+## Imagen del proyecto
+
+Interfaz del proyecto
+
+![Texto alternativo](https://github.com/arinucru/challenge-amigo-secreto/blob/main/assets/amigo-secreto-ss.jpg)
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local.
